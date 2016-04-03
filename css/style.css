@@ -1,0 +1,347 @@
+body {
+    opacity:0.8;
+    box-shadow:0px 10px 10px darkgrey;
+    background-color:white;
+    color:black;
+    width:90%;
+    margin:41px auto;
+	text-align:center;
+}
+
+
+/* NAVIGATION BAR */
+
+nav ul {
+	font-family: Verdana, Geneva, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	display:inline-block;
+}
+
+nav li {
+	border-right: 1px solid #bbb;
+    float: left;
+}
+
+nav li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #3CF;
+}
+
+nav.active {
+    background-color: #666;
+}
+
+
+
+
+/* FOOTER */
+.footer { 
+	position: relative;
+	top: 30px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 15px;
+	font-family: "Courier New", Courier, monospace;
+	clear:both;
+}
+
+
+
+/* INDEX page */
+.index h1 {
+	color: #000;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 40px;
+}
+
+a {
+	color: #3CF;
+	text-decoration: none;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+nav.active {
+    background-color: #333;
+}
+
+
+/* ABOUT page*/
+.about {
+	color: #333;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+	}
+
+
+.about h1 {
+	color: #3CF;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	}
+	
+.about p {
+	position: relative;
+	top: 20px;
+	font-family: "Courier New", Courier, monospace;
+	color: #333;
+}
+
+.about img {
+	position: relative;
+	top: 15px;
+	right: 10px;
+	
+    border-radius: 50%;
+} 
+
+
+
+/* PHOTOGRAPHY page */
+.photography .nightlife h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	color: #3CF;
+	
+}
+	
+.photography .composition h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	color: #3CF;
+}
+
+.photography .portrait h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	color: #3CF;
+}
+
+
+/* nightlife */
+.nightlife h1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+}
+.nightlife p{
+	font-family: "Courier New", Courier, monospace;
+}
+
+/* composition */
+.composition h1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+}
+
+/* portrait*/
+.portrait h1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+}
+
+/* photogrpahy links */
+#refnightlife {
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	padding: 20px;
+	display: inline-block;
+	font-family: Verdana, Geneva, sans-serif;
+	color: black;
+}
+
+#refcomp {
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	padding: 20px;
+	display: inline-block;
+	font-family: Verdana, Geneva, sans-serif;
+	color: black;
+}
+
+
+#refportrait {
+	margin-left: 30px;
+	padding: 20px;
+	display: inline-block;
+	font-family: Verdana, Geneva, sans-serif;
+	color: black;
+}
+
+#refnightlife a{
+	display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-size: 50px;
+}
+
+#refcomp a{
+	display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-size: 50px;
+}
+#refportrait a{
+	display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-size: 50px;
+}
+
+#refnightlife a:hover {
+    background-color: #3CF;
+}
+
+#refcomp a:hover {
+    background-color: #3CF;
+}
+
+#refportrait a:hover {
+    background-color: #3CF;
+}
+	
+	
+
+/* MEDIA page*/
+.media {
+	margin-left: 200px;
+    margin-right: 200px;
+}
+
+.media h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: centre;
+	text-size: 40px;
+	color: #3CF;
+}
+
+.media p {
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+}
+	
+	
+	
+
+
+/* DESIGN page */
+.sidebar1{
+	margin-left: 150px;
+	padding-top: 15px;
+	float:left;
+	width:20%
+	}
+
+.sidebar1 h1{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #3CF;
+	}
+
+.sidebar1 p { 
+	font-family: "Courier New", Courier, monospace;
+	}
+
+.design {
+	margin-bottom: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	float:left;
+	width:30%;
+	}
+	
+.design h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 20px;
+	}
+
+.design p {
+	font-family: "Courier New", Courier, monospace;
+	padding: 20px;
+	}
+
+
+
+/* CONTACT page */
+.primary {
+	margin-left: 100px;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float:left;
+	width:20%;
+	}
+.primary h1 {
+	color:#3CF;
+	font-family: Verdana, Geneva, sans-serif;
+	text-size: 50px;
+}
+.primary h2 {
+	font-family: "Courier New", Courier, monospace;
+	text-size: 30px;
+}
+
+.secondary{
+	padding-top: 100px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 20px;
+	float:left;
+	width:20%;
+	}
+.secondary h1 {
+	color: #3CF;
+	font-family: Verdana, Geneva, sans-serif;
+	text-size: 50px;
+}
+.secondary h2 {
+	font-family: "Courier New", Courier, monospace;
+	text-size: 30px;
+}
+.secondary h3 {
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+	text-size: 30px;
+	
+}
+
+.secondary a {
+	color: black;
+}
+.secondary a:hover {
+	color: #3CF;
+}
+
+.sidebar2 {
+	color: #3CF;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-size: 50px;
+	float:left;
+	width:30%;
+	}
